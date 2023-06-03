@@ -1,4 +1,3 @@
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 TEST_CASE("factorial function") {
     CHECK(fact(0) == 1); // should fail
     CHECK(fact(-1) == 0);// should fail
