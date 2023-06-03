@@ -3,6 +3,3 @@ cmake_minimum_required(VERSION 3.26.4)
 project("pr9" CXX)
 
 enable_testing()
-add_subdirectory(external/doctest)
-add_subdirectory(pr9)
-add_executable(pr9 pr9.cxx)
